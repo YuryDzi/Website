@@ -1,0 +1,633 @@
+//@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+    --primarly-color: #7510f7
+}
+
+
+
+
+body {
+    background: white;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'playfair+display', 'sans-serif'; //'Poppins', sans-serif; 
+    
+}
+
+
+    .back {
+        background: #7510f7;
+    }
+
+
+
+.mid {
+    padding: 4rem 1.5rem;
+    background-color: #7510F7;
+    color: #fff;
+    padding-bottom: 14rem;
+    text-align: center;
+    display: block;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    box-sizing: inherit;
+}
+
+.title {
+    font-size: 1rem;
+
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    word-spacing: 0.1rem;
+    font-style: italic;
+}
+
+.pic {
+
+    img {
+    width: 40%;
+    margin-bottom: -4rem;
+    margin-left: 1.5rem;
+    
+    }
+}
+
+.container {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+   
+
+    div {
+        display: block;
+    }
+}
+
+.columns {
+    justify-content: center;
+    
+}
+
+.colums {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+ div {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ //skill-columns section
+
+
+
+.skills {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  
+  h2 {
+    color: var(--primarly-color);
+    
+ }
+
+h3 {
+    color: var(--primarly-color);
+ }
+
+ img {
+     width: 20%;
+ }
+
+ p {
+    margin: 2rem; 
+    color: black;
+    font-size: 105%;
+    
+ }
+
+}
+
+
+
+.content {
+ width: 90%;
+ max-width: 1000px;
+ margin: 0 auto;
+ display: center;
+ align-items: center;
+ justify-content: center;
+}
+
+.left {
+    width: 80%;
+    height: -6px;
+    border-radius: 1rem;
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    margin: auto;
+    //box-shadow: 0 0 2px rgba(0,0,0,.5);
+    margin-bottom: 0.5rem;
+    margin-top: -7rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgb(236, 233, 233);
+    border-style: solid;
+    border-width: 0.01rem;
+
+   
+}
+
+
+
+.center {
+    width: 80%;
+    height: -6px; //here
+    border-radius: 1rem;
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    margin: auto;
+    background: rgba(255, 255, 255, 1);
+    //box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-bottom: 0.5rem;
+    border-color: rgb(236, 233, 233);
+    border-style: solid;
+    border-width: 0.01rem;
+    margin-top: -0.6rem;
+    
+}
+
+.right {
+    width: 80%;
+    height: -6px; //here
+    border-radius: 1rem;
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    margin: auto;
+    background: rgba(255, 255, 255, 1);
+    //box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-bottom: 2rem;
+    border-color: rgb(236, 233, 233);
+    border-style: solid;
+    border-width: 0.01rem;
+    margin-top: -0.6rem;
+}
+
+
+
+
+
+ //email section
+input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: var(--primarly-color);
+    color: var(--primarly-color);
+    font-weight: bold; //text on the button editor
+    font-size: 1.3em; //how big the button is
+    border: none;
+    margin-bottom: 5em;
+    border-radius: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+}
+
+.navbar {
+    background: white; 
+    padding: 1em;
+
+    .logo-head {
+        width: 3.5em;
+        height: 3em;
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+
+}   
+
+    .mobile-menu {
+        cursor: pointer;
+        float: right;
+    } 
+
+ .projects-section { //adsensai
+     text-align: center;
+
+     img {
+         width: 450px;
+     }
+ }
+ 
+
+.hero {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: auto;
+     
+    .head-text {
+        height: 15rem;
+    }
+
+p {
+    position: relative;
+    bottom: 30px;
+    font-size: 120%;
+  
+ }
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 3rem;
+ }
+
+ h2 {
+     margin-bottom: 2.5rem;
+ }
+
+ h3 {
+     margin-bottom: 2.5rem;
+ }
+
+ .icons {
+    margin-top: -2.6rem;
+
+    
+    
+
+    img {
+    width: 1.7rem;
+    margin: 1rem;
+    margin-top: -0.4rem;
+ }
+
+
+ // inverting icons hover 
+  ul li a img:hover {
+      filter: invert(1);
+    
+  }
+    
+    ul {
+    display: inline-flex;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    // margin-top: -3rem;
+    }
+
+ }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+
+
+    .mobile-menu, .mobile-menu-exit {
+        display: none;
+    }
+
+    
+
+    .navbar nav {
+        display: flex;
+        
+        
+        
+
+        ul {
+            display: flex;
+        }
+
+       
+          //nav buttons
+
+        ul.primary-nav {
+            margin: 0;
+        }
+
+        .primary-nav .current  {
+        position: inherit;
+        display: flex;
+        border: 2rem solid var(--primarly-color);
+        border-radius: 33rem;
+        background-color: transparent;
+        border-width: 0.1rem;
+        cursor: pointer;
+           
+           
+        }
+        
+
+        
+
+        // Cute button li.go-premioum-cta a {
+            //color: var(--primarly-color);
+           // border: 3px solid var(--primarly-color);
+           // font-weight: bold;
+          //  border-radius: 5em;
+          //  margin-top: -.2em;
+       // }
+
+       //additional visual &:hover {
+         //   background: var(--primarly-color);
+          //  color: white;
+        //}
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+
+        
+   .navbar  {
+       .logo-head {
+        width: 5em;
+        height: 4em;
+        // padding: 1rem;
+        // margin: 1rem;
+       }
+       .container {
+        padding: 1rem;
+        margin: 1rem;
+
+       }
+   }
+
+
+    .pic {
+          
+        padding: 0;
+        margin: 0;
+        
+
+        img {
+        width: 25%;
+        
+        }
+    }
+
+
+
+
+  // mid text size
+ 
+ 
+ 
+  .mid {
+        margin-top: 8rem;     
+    .container  {
+        width: 200rem;
+        display: flex;
+        padding: 4rem;
+        max-width: 55rem;
+        
+
+        
+    }
+
+    // h1 {
+    //     font-size: 1rem;
+    // }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+ }
+
+
+ .skills {
+   
+  
+   
+   h1 {
+     font-size: 165%;
+     margin-bottom: 3.5rem;
+   }
+
+   h2 {
+    font-weight: normal;
+    margin-bottom: 3rem;
+    
+
+  }
+
+ h3 {
+    font-weight: normal;
+    margin-bottom: 2.5rem;
+  }
+
+ img {
+     width: 22.5%;
+     
+ }
+
+ p {
+    margin: 2rem; 
+    color: black;
+    font-size: 115%;
+    font-style: italic;
+    
+ }
+
+ }
+
+    .content {
+    position: absolute;
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgb(236, 233, 233);
+    border-style: solid;
+    border-width: 0.04rem;
+    border-radius: 1rem;
+    height: 45.3rem;
+    max-width: 75rem;
+    margin-top: -21rem;
+    
+    
+    
+   
+  
+  }
+ 
+
+ .left {
+    width: 33.33%;
+    border-width: 0; 
+    float: left;  
+    padding: 1.3rem;
+
+    
+    
+    
+  
+ }
+
+ .center {
+    width: 33.33%;
+    height: 39rem;
+    margin-top: 0.50rem;
+    border-color: rgb(236, 233, 233);
+    border-style: solid;
+    border-top: 0.04rem;
+    border-bottom: 0.04rem;
+    border-radius: 0;
+    
+    
+    
+ }
+
+ .right {
+  width: 33.33%;
+  border-width: 0;
+  float: right;
+  padding: 1.3rem;
+  
+  
+  }
+
+   
+ 
+  
+  .hero {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: auto;
+    
+    .head-text {
+        height: 15rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+
+
+ .icons {
+    margin-top: -2.6rem;
+    
+
+    img {
+    width: 1.7rem;
+    margin: 2rem;
+    margin-top: -0.4rem;
+ }
+    
+  
+ }
+ }
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+}

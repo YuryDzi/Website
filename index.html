@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body> 
+    <script src="./launch.json"></script>
+
+     <div class="navbar">
+        <div class="container">
+            <img id="logo" class="logo-head" src="images/box.svg" alt="Return to HomePage">
+
+            <img id="mobile-cta" class="mobile-menu" src="images/burger.svg" alt="Open  navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close  navigation">
+               
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+     </div>
+
+     <section class="hero">
+        <section class="head-text">
+            <h1>Full-Stack Developer</h1>
+            <p>I design and code beautifull things &amp; I love what I do.</p>
+        <div class="icons">
+            <ul>
+                <li><a href="#"><img src="images/resume.svg" alt="Resume"></a></li>
+                <li><a href="https://www.linkedin.com/in/dziyura/"><img src="images/linkedin.svg" alt="Linkedin"></a></li>
+                <li><a href="https://github.com/TheKingOfTheWolfs"><img src="images/github.svg" alt="Github"></a></li>
+            </ul>
+          </div>
+        </section>
+         
+        <div class="pic">
+        <img src="images/illustration.svg" class="hero-img" alt="Illistration">
+        </div>
+
+      <section class="mid">
+          <div class="container">
+             <div class="columns">
+                     <h1 class="title">Hi, I’m Yura. Nice to meet you.</h1>
+                     <h2 class="subtitle">My passion for web development begins with founding my first startup and it grows ever since. I collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</h2>
+             </div> 
+          </div>
+      </section>
+
+     <section class="skills">
+              <div class="content">
+                  <div class="left">
+                <img src="images/laptop.svg" class="laptoppic" alt="LapTopIcon">
+                 <h1>Front-End Developer</h1>
+                 <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser</p> 
+                 <h2>Languages I use:</h2>
+                 <p>HTML, CSS, Sass</p>
+                 <h3>Dev Tools:</h3>
+                 <p>React, Bootstrap, WordPress</p>
+                 </div>
+                <div class="center">
+                <img src="images/backend.svg" class="laptoppic" alt="LapTopIcon">
+                <h1>Back-End Developer</h1>
+                <p>I'm fascinated by server-side engineering, coming up with the right logic and coding it</p> 
+                <h2>Languages I use:</h2>
+                <p>Python, Javascript</p>
+                <h3>Dev Tools:</h3>
+                <p>Django, NodeJS, Git</p>
+                </div>
+                <div class="right">
+                    <img src="images/data.svg" class="laptoppic" alt="LapTopIcon">
+                    <h1>Database</h1>
+                    <p>An easily accessible and transparent database of information will bring sunshine into your life</p> 
+                    <h2>Languages I use:</h2>
+                    <p>Python, Javascript</p>
+                    <h3>Dev Tools:</h3>
+                    <p>Django, NodeJS</p>
+                 </div>
+         </div>
+     </section>
+
+     <section class="projects-section">
+         <h1>My Work</h1>
+         <h2>Here are a few design projects I've worked on recently.</h2>
+         <a href="https://adsensai.com/"><img src="images/AdSensai.png" alt="Adsenai"></a>
+     </section>
+
+    <section class="purple-background-bottom">
+        
+    </section>
+
+     <section class="contact-section">
+         <div class="container">
+             <div class="contact-left">
+                 <h2>Contact</h2>
+
+                 <form action="">
+                     <label for="email">Email</label>
+                     <input type="email" id="email" email="email" placeholder="Enter email">
+                    
+                     <label for="message">Message</label>
+                     <textarea name="message" id="message" cols="30" placeholder="Enter your message" rows="10"></textarea>
+                    
+                     <input type="submit" class="send-message-cta" value="Send message">
+
+                 </form>
+             </div>
+
+         </div>
+     </section>
+
+       <section class="info">
+         <div class="back">
+          
+         </div>
+
+       </section>
+
+    <script> //Don't forget to add JavaScript close-open menu!!!
+
+        const mobileBtn = document.getElementById('mobile-cta');
+              nav = document.querySelector('nav');
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+    </script>
+
+</body>
+</html>
