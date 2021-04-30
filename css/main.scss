@@ -21,14 +21,14 @@ body {
 
 
     .back {
-        background: #7510f7;
+        background: var(--primarly-color);
     }
 
 
 
 .mid {
     padding: 4rem 1.5rem;
-    background-color: #7510F7;
+    background-color: var(--primarly-color);
     color: #fff;
     padding-bottom: 14rem;
     text-align: center;
@@ -231,6 +231,7 @@ input[type="submit"] {
     padding: .8em 2em;
     width: unset;
     cursor: pointer;
+    color: white;
 }
 
 .navbar {
@@ -353,42 +354,30 @@ h1 {
             margin: 0;
         }
 
-        .current  {
-        
-        // display: flex;
-        // border: 30rem solid var(--primarly-color);
-        // border-radius: 2rem;
-        // background-color: transparent;
-        // border-width: 0.1rem;
-        // cursor: pointer;
-        // height: 3rem;
-        // width: 9rem;   
 
-        }
-        
-        a {
-        color: var(--primarly-color);
+ // "say hello" button
+      a {
         text-decoration: none;
-        
-        
-        
-        display: flex;
-;
-        border: 30rem solid var(--primarly-color);
-        border-radius: 2rem;
+        width: 100%;
+        padding: .8em;
+        margin-bottom: 1em;
+        border-radius: .3em;
+        border: 1px solid gray;
         background-color: transparent;
-        border-width: 0.1rem;
-        margin: auto;
-
+        border-color: var(--primarly-color);
+        color: var(--primarly-color);
+        font-size: 1.3em; 
+        font-style: italic;
+        margin-bottom: 5em;
+        border-radius: 5em;
+        display: inline-block;
+        padding: .8em 2em;
+        width: unset;
         cursor: pointer;
-        height: 3rem;
-        width: 9rem;  
-        }
-
-        // .current:hover {
-        //     background-color: var(--primarly-color);
-        // }
-
+        border-width: 0.1rem;
+        color: var(--primarly-color);
+      }
+      
         a:hover {
             color: white;
             background-color: var(--primarly-color);
