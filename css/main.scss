@@ -362,11 +362,10 @@ h1 {
         padding: .8em;
         margin-bottom: 1em;
         border-radius: .3em;
-        border: 1px solid gray;
+        border: 1px solid var(--primarly-color);
         background-color: transparent;
-        border-color: var(--primarly-color);
         color: var(--primarly-color);
-        font-size: 1.3em; 
+        font-size: 1.2em; 
         font-style: italic;
         margin-bottom: 5em;
         border-radius: 5em;
@@ -554,11 +553,13 @@ h1 {
   
   .hero {
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     padding: auto;
+    
     
     .head-text {
         height: 15rem;
+        margin-top: -7rem;
     }
 
     h1 {
