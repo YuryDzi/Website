@@ -342,14 +342,9 @@ h1 {
     
 
     .navbar nav {
-        display: flex;
+        display: inline-block;
         
-        
-        
-
-        ul {
-            display: flex;
-        }
+    
 
        
           //nav buttons
@@ -358,18 +353,46 @@ h1 {
             margin: 0;
         }
 
-        .primary-nav .current  {
-        position: inherit;
-        display: flex;
-        border: 2rem solid var(--primarly-color);
-        border-radius: 33rem;
-        background-color: transparent;
-        border-width: 0.1rem;
-        cursor: pointer;
-           
-           
+        .current  {
+        
+        // display: flex;
+        // border: 30rem solid var(--primarly-color);
+        // border-radius: 2rem;
+        // background-color: transparent;
+        // border-width: 0.1rem;
+        // cursor: pointer;
+        // height: 3rem;
+        // width: 9rem;   
+
         }
         
+        a {
+        color: var(--primarly-color);
+        text-decoration: none;
+        
+        
+        
+        display: flex;
+;
+        border: 30rem solid var(--primarly-color);
+        border-radius: 2rem;
+        background-color: transparent;
+        border-width: 0.1rem;
+        margin: auto;
+
+        cursor: pointer;
+        height: 3rem;
+        width: 9rem;  
+        }
+
+        // .current:hover {
+        //     background-color: var(--primarly-color);
+        // }
+
+        a:hover {
+            color: white;
+            background-color: var(--primarly-color);
+        }
 
         
 
@@ -422,7 +445,6 @@ h1 {
 
 
   // mid text size
- 
  
  
   .mid {

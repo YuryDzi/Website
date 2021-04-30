@@ -307,28 +307,29 @@ input[type="submit"] {
     display: none;
   }
   .navbar nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .navbar nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: inline-block;
   }
   .navbar nav ul.primary-nav {
     margin: 0;
   }
-  .navbar nav .primary-nav .current {
-    position: inherit;
+  .navbar nav a {
+    color: var(--primarly-color);
+    text-decoration: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border: 2rem solid var(--primarly-color);
-    border-radius: 33rem;
+    border: 30rem solid var(--primarly-color);
+    border-radius: 2rem;
     background-color: transparent;
     border-width: 0.1rem;
+    margin: auto;
     cursor: pointer;
+    height: 3rem;
+    width: 9rem;
+  }
+  .navbar nav a:hover {
+    color: white;
+    background-color: var(--primarly-color);
   }
 }
 
