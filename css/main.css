@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 :root {
-  --primarly-color: #7510f7
-;
+  --primarly-color: #7510f7;
+  --secondary-color: #141c3a;
 }
 
-body {
+html, body {
   background: white;
   margin: 0;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   padding: 0;
   overflow-x: hidden;
   font-family: 'playfair+display', 'sans-serif';
@@ -143,7 +143,7 @@ ul {
 }
 
 .left {
-  width: 80%;
+  width: 70%;
   height: -6px;
   border-radius: 1rem;
   position: relative;
@@ -159,7 +159,7 @@ ul {
 }
 
 .center {
-  width: 80%;
+  width: 70%;
   height: -6px;
   border-radius: 1rem;
   position: relative;
@@ -175,7 +175,7 @@ ul {
 }
 
 .right {
-  width: 80%;
+  width: 70%;
   height: -6px;
   border-radius: 1rem;
   position: relative;
@@ -236,6 +236,49 @@ input[type="submit"] {
   place-content: space-between;
 }
 
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  background: white;
+  height: 9vh;
+  width: 20vh;
+}
+
+img.mobile-menu-exit {
+  width: 17%;
+  float: right;
+  cursor: pointer;
+}
+
+.hi-two {
+  display: none;
+}
+
+.hi-one {
+  text-decoration: none;
+  border-radius: .3em;
+  border: 1px solid var(--primarly-color);
+  background-color: transparent;
+  color: var(--primarly-color);
+  font-size: 1.2em;
+  font-style: italic;
+  margin-right: -5em;
+  margin-top: 1em;
+  padding: .1em 1em;
+  border-radius: 5em;
+  display: inline-block;
+  cursor: pointer;
+  border-width: 0.1rem;
+}
+
+.hi-one:hover {
+  font-weight: bold;
+}
+
 .mobile-menu {
   cursor: pointer;
   float: right;
@@ -243,16 +286,17 @@ input[type="submit"] {
 
 .projects-section {
   text-align: center;
+  padding: 4em 2em;
 }
 
 .projects-section img {
-  width: 450px;
+  width: 350px;
 }
 
 .hero {
   text-align: center;
   margin-top: 2.5rem;
-  padding: auto;
+  padding: 0;
 }
 
 .hero .head-text {
@@ -310,13 +354,13 @@ input[type="submit"] {
   .navbar nav {
     display: inline-block;
   }
-  .navbar nav ul.primary-nav {
-    margin: 0;
+  .navbar nav .hi-one {
+    display: none;
   }
-  .navbar nav a {
+  .navbar nav .hi-two {
+    text-align: center;
     text-decoration: none;
     width: 100%;
-    padding: .8em;
     margin-bottom: 1em;
     border-radius: .3em;
     border: 1px solid var(--primarly-color);
@@ -342,7 +386,8 @@ input[type="submit"] {
 @media only screen and (min-width: 1080px) {
   .navbar .logo-head {
     width: 5em;
-    height: 4em;
+    height: 5em;
+    margin: -0.5rem;
   }
   .navbar .container {
     padding: 1rem;

@@ -2,17 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 :root {
-    --primarly-color: #7510f7
+    --primarly-color: #7510f7;
+    --secondary-color: #141c3a;
 }
 
 
 
 
-body {
+html, body {
     background: white;
     margin: 0;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     padding: 0;
     overflow-x: hidden;
     font-family: 'playfair+display', 'sans-serif'; //'Poppins', sans-serif; 
@@ -38,6 +39,7 @@ body {
     font-size: 100%;
     font: inherit;
     box-sizing: inherit;
+    
 }
 
 .title {
@@ -85,6 +87,8 @@ body {
     
 }
 
+ 
+
 .colums {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
@@ -115,6 +119,7 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: white;
+  
   
   h2 {
     color: var(--primarly-color);
@@ -150,7 +155,7 @@ h3 {
 }
 
 .left {
-    width: 80%;
+    width: 70%;
     height: -6px;
     border-radius: 1rem;
     position: relative;
@@ -171,7 +176,7 @@ h3 {
 
 
 .center {
-    width: 80%;
+    width: 70%;
     height: -6px; //here
     border-radius: 1rem;
     position: relative;
@@ -189,7 +194,7 @@ h3 {
 }
 
 .right {
-    width: 80%;
+    width: 70%;
     height: -6px; //here
     border-radius: 1rem;
     position: relative;
@@ -254,16 +259,76 @@ input[type="submit"] {
 
 }   
 
+ nav.menu-btn {
+     display: block; // script block
+ }
+
+  nav {
+      position: absolute;
+      right: 0; //come back here
+      background: white;
+      height: 9vh;
+      width: 20vh;
+      
+
+ 
+
+  }
+
+  img.mobile-menu-exit { //cross-exit
+      width: 17%;
+      float: right;
+      cursor: pointer;
+      
+      
+   
+  }
+
+
+
+  .hi-two {
+      display: none;
+  }
+
+  .hi-one {
+     
+      text-decoration: none;
+      border-radius: .3em;
+      border: 1px solid var(--primarly-color);
+      background-color: transparent;
+      color: var(--primarly-color);
+      font-size: 1.2em; 
+      font-style: italic;
+      margin-right: -5em;
+      margin-top: 1em;
+      padding: .1em 1em;
+      border-radius: 5em;
+      display: inline-block;
+      cursor: pointer;
+      border-width: 0.1rem;
+
+       &:hover {
+           font-weight: bold;
+       }
+          
+      }
+  
+
+  
+
+  
+
     .mobile-menu {
         cursor: pointer;
         float: right;
     } 
 
- .projects-section { //adsensai
+ .projects-section { 
      text-align: center;
+     padding: 4em 2em;
 
      img {
-         width: 450px;
+         width: 350px;
      }
  }
  
@@ -271,10 +336,16 @@ input[type="submit"] {
 .hero {
     text-align: center;
     margin-top: 2.5rem;
-    padding: auto;
+    padding: 0;
+    
+    
+    
+    
+    
      
     .head-text {
         height: 15rem;
+        
     }
 
 p {
@@ -341,25 +412,31 @@ h1 {
     }
 
     
+     
+    
 
     .navbar nav {
         display: inline-block;
         
-    
+       
 
        
           //nav buttons
 
-        ul.primary-nav {
-            margin: 0;
+        // ul.primary-nav {
+        //     margin: 0;
+        // }
+
+      
+        .hi-one {
+            display: none;
         }
 
-
- // "say hello" button
-      a {
+ //"say hello" button
+      .hi-two {
+        text-align: center;
         text-decoration: none;
         width: 100%;
-        padding: .8em;
         margin-bottom: 1em;
         border-radius: .3em;
         border: 1px solid var(--primarly-color);
@@ -401,13 +478,14 @@ h1 {
 
 @media only screen and (min-width: 1080px) {
 
+    
         
    .navbar  {
        .logo-head {
         width: 5em;
-        height: 4em;
+        height: 5em;
         // padding: 1rem;
-        // margin: 1rem;
+        margin: -0.5rem;
        }
        .container {
         padding: 1rem;
