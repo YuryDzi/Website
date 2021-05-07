@@ -483,6 +483,15 @@ img.mobile-menu-exit {
   .hero .head-text {
     height: 15rem;
     margin-top: -7rem;
+    text-align: center;
+  }
+  .hero .head-text h1 {
+    font-size: 2.7rem;
+    font-style: italic;
+  }
+  .hero .head-text p {
+    font-size: 1.4rem;
+    font-style: italic;
   }
   .hero h1 {
     font-size: 2rem;
