@@ -287,11 +287,49 @@ img.mobile-menu-exit {
 .projects-section {
   text-align: center;
   padding: 4em 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.projects-section img {
+.projects-section .naks img {
+  height: 14rem;
   width: 350px;
   margin: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: grey 0.01em  solid;
+  border-bottom: none;
+}
+
+.projects-section .adsensai img {
+  width: 350px;
+  margin: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: grey 0.01em solid;
+}
+
+.projects-section .phonexa img {
+  width: 350px;
+  margin: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: grey 0.1em solid;
+}
+
+.projects-section .hvm img {
+  background: var(--primarly-color);
+  width: 350px;
+  margin: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: grey 0.01em solid;
 }
 
 .hero {
