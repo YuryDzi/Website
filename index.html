@@ -9,7 +9,6 @@
     
 </head>
 <body> 
-    <script src="./launch.json"></script>
 
      <div class="navbar">
         <div class="container">
@@ -42,7 +41,8 @@
                 <li><a href="https://github.com/TheKingOfTheWolfs"><img src="images/github.svg" alt="Github"></a></li>
             </ul>
           </div>
-        </section>
+        
+     </section>
          
         <div class="pic">
         <img src="images/illustration.svg" class="hero-img" alt="Illistration">
@@ -92,20 +92,28 @@
      <section class="projects-section">
         <h1>My Work</h1>
         <h2>Here are a few design projects I've worked on recently.</h2>
-         <div id="work" class="project-img">
-         <div class="hvm">
-        <a href="https://hvmlawfirm3.webflow.io/"><img src="images/LawFirm.png" alt="HvmLawFirm"></a> 
+         <div class="slider">
+            <div class="images" id="slide">
+             <!-- <input type="radio" name="slide" id="img1" checked>
+             <input type="radio" name="slide" id="img2">
+             <input type="radio" name="slide" id="img3">
+             <input type="radio" name="slide" id="img4"> -->
+             <a class="naks" href="https://naks.us/"><img src="images/Naks.png" alt="Naks"></a>
+             <a class="phonexa" href="https://phonexa.com/"><img src="images/Phonexa.png" alt="Phonexa"></a>
+             <a class="adsensai" href="https://adsensai.com/"><img src="images/AdSensai.png" alt="Adsenai"></a> 
+             <a class="hvm" href="https://hvmlawfirm3.webflow.io/"><img src="images/LawFirm.png" alt="HvmLawFirm"></a> 
         </div>
-        <div class="adsensai">
-        <a href="https://adsensai.com/"><img src="images/AdSensai.png" alt="Adsenai"></a> 
+    </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
-        <div class="phonexa">
-        <a href="https://phonexa.com/"><img src="images/Phonexa.png" alt="Phonexa"></a> 
+        
+        
         </div>
-        <div class="naks">
-        <a href="https://naks.us/"><img src="images/Naks.png" alt="Naks"></a>
-        </div>
-        </div>
+     </section>
      
 
      <!-- <section class="contact-section">
@@ -139,7 +147,8 @@
        
 
     <script> 
-
+        
+        // JS for navbar (mobile)
         const mobileBtn = document.getElementById('mobile-cta');
               nav = document.querySelector('nav');
               mobileBtnExit = document.getElementById('mobile-exit');
@@ -151,6 +160,44 @@
         mobileBtnExit.addEventListener('click', () => {
             nav.classList.remove('menu-btn');
         })
+
+        //JS for my projects section
+        
+        var dot = document.getElementsByClassName("dot");
+        var slide = document.getElementById("slide");
+
+        dot[0].onclick = function(){
+            slide.style.transform = "translateX(0px)";
+            for(i=0;i<4;i++){
+                dot[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+        dot[1].onclick = function(){
+            slide.style.transform = "translateX(-380px)";
+            for(i=0;i<4;i++){
+                dot[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+        dot[2].onclick = function(){
+            slide.style.transform = "translateX(-770px)";
+            for(i=0;i<4;i++){
+                dot[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+        dot[3].onclick = function(){
+            slide.style.transform = "translateX(-1140px)";
+            for(i=0;i<4;i++){
+                dot[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
 
     </script>
 

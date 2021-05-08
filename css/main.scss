@@ -214,30 +214,30 @@ h3 {
 
 
 
- //email section
-input, textarea {
-    width: 100%;
-    padding: .8em;
-    margin-bottom: 1em;
-    border-radius: .3em;
-    border: 1px solid gray;
-    box-sizing: border-box;
-}
+//  //email section
+// input, textarea {
+//     width: 100%;
+//     padding: .8em;
+//     margin-bottom: 1em;
+//     border-radius: .3em;
+//     border: 1px solid gray;
+//     box-sizing: border-box;
+// }
 
-input[type="submit"] {
-    background-color: var(--primarly-color);
-    color: var(--primarly-color);
-    font-weight: bold; //text on the button editor
-    font-size: 1.3em; //how big the button is
-    border: none;
-    margin-bottom: 5em;
-    border-radius: 5em;
-    display: inline-block;
-    padding: .8em 2em;
-    width: unset;
-    cursor: pointer;
-    color: white;
-}
+// input[type="submit"] {
+//     background-color: var(--primarly-color);
+//     color: var(--primarly-color);
+//     font-weight: bold; //text on the button editor
+//     font-size: 1.3em; //how big the button is
+//     border: none;
+//     margin-bottom: 5em;
+//     border-radius: 5em;
+//     display: inline-block;
+//     padding: .8em 2em;
+//     width: unset;
+//     cursor: pointer;
+//     color: white;
+// }
 
 .navbar {
     background: white; 
@@ -328,7 +328,7 @@ input[type="submit"] {
      padding: 4em 2em;
      justify-content: center;
      align-items: center;
-     object-fit: cover;
+     
      
      .naks  {
 
@@ -336,9 +336,8 @@ input[type="submit"] {
         height: 14rem;
         width: 350px;
         margin: 1rem;
-       object-fit: cover;
-       border: grey 0.01em  solid;
-       border-bottom: none;
+        object-fit: cover;
+      
         }
     }
 
@@ -347,36 +346,125 @@ input[type="submit"] {
         img { 
         width: 350px;
         margin: 1rem;
-       object-fit: cover;
-       border: grey 0.01em solid;
+        object-fit: cover;
+       
         }
     }
 
     .phonexa  {
 
         img { 
-        width: 350px;
+        width: 330px;
         margin: 1rem;
-       object-fit: cover;
-       border: grey 0.1em solid;
+        object-fit: cover;
+      
         }
     }
 
     .hvm  {
 
         img { 
-        background: var(--primarly-color);
         width: 350px;
         margin: 1rem;
         object-fit: cover;
-        border: grey 0.01em solid;
+        
         
         }
     }
      
  }
  
+  .slider {
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+    .images {
+     display: flex;
+     width: 100%;
+     transition: all 0.7s ease;
+    }
+
+    .images img {
+        transition: all 0.15s ease;
+        // transform: translateX(-20%);
+    }
+
+    // .images input {
+    //     display: none;
+
+    // }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .dots span {
+        background-color: white;
+        border: 2px solid rgb(230, 236, 248);
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 0.5rem;
+        transition: all 0.15s ease;
+    }
+
+    .dots span:hover {background: var(--primarly-color);}
+    
+
+     //stopped here
+
+
+
+
+
+
+
+
+
+//   .slider {    //navigation
+//       position: absolute;
+//       bottom: 20px;
+//       left: 50%;
+//       transform: translateX(-50%); //center alighn
+//       display: flex;
+//   }
+
+//   .bar {
+//     background-color: white;
+//     border: 2px solid grey;
+//     width: 15px;
+//     height: 15px;
+//     border-radius: 50%;
+//     cursor: pointer;
+//     display: inline-block;
+//     margin: 1rem;
+//     padding: 0;
+//     font-size: 100%;
+//     font: inherit;
+//     vertical-align: baseline;
+//     transition: 0.4s;  //hover speed
+//   }
+
+//   .bar:hover {
+//     background-color: var(--primarly-color);
+//     border-color: var(--primarly-color);
+//   }
+
+// }
+
   
+ 
+//   *, *::before, *::after {
+//     box-sizing: inherit;
+// }
+  
+
+
 
 .hero {
     text-align: center;
