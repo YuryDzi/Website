@@ -286,7 +286,7 @@ img.mobile-menu-exit {
 }
 
 .projects-section .phonexa img {
-  width: 330px;
+  width: 340px;
   margin: 1rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -341,6 +341,19 @@ img.mobile-menu-exit {
 
 .dots span:hover {
   background: var(--primarly-color);
+}
+
+.dots .dot.active {
+  background: var(--primarly-color);
+}
+
+.project-container p {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .hero {
