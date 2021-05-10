@@ -52,7 +52,7 @@
           <div class="container">
              <div class="columns">
                      <h1 class="title">Hi, I’m Yura. Nice to meet you.</h1>
-                     <h2 class="subtitle">My passion for web development begins with founding my first startup and it grows ever since. I collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</h2>
+                     <h2 class="subtitle">My passion for Product Management begins with founding my first startup and it grows ever since. I collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</h2>
              </div> 
           </div>
       </section>
@@ -61,7 +61,7 @@
               <div class="content">
                   <div class="left">
                 <img src="images/laptop.svg" class="laptoppic" alt="LapTopIcon">
-                 <h1>Product Management</h1>
+                 <h1>Product Manager</h1>
                  <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser</p> 
                  <h2>Languages I use:</h2>
                  <p>HTML, CSS, Sass</p>
@@ -70,8 +70,8 @@
                  </div>
                 <div class="center">
                 <img src="images/backend.svg" class="laptoppic" alt="LapTopIcon">
-                <h1>Software Development</h1>
-                <p>I'm fascinated by server-side engineering, coming up with the right logic and coding it</p> 
+                <h1>Software Developer</h1>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p> 
                 <h2>Languages I speak:</h2>
                 <p>HTML, CSS, Sass, Python, Javascript</p>
                 <h3>Dev Tools:</h3>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="right">
                     <img src="images/data.svg" class="laptoppic" alt="LapTopIcon">
-                    <h1>Design</h1>
+                    <h1>Designer</h1>
                     <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p> 
                     <h2>Things I enjoy designing:</h2>
                     <p>UX, UI, Web, Mobile, Apps, Logos</p>
@@ -93,7 +93,7 @@
         <h1>My Work</h1>
         <h2>Here are a few design projects I've worked on recently.</h2>
          <div class="slider">
-            <div class="images" id="slide">
+            <div class="mywork" id="slide">
                 <div class="project-container">
              <a class="naks" href="https://naks.us/"><img src="images/Naks.png" alt="Naks"></a>
               <p>I was mainly working on a front end wordpress</p>
@@ -148,10 +148,14 @@
      <section class="box-container">
          <div class="small-box">
              <p>Thanks for taking the time to review my portfolio</p>
-             <a href="#" id="chatWithMe" class="chat-with-me">Let's chat</a>
+             <button id="chatWithMe" class="chat-with-me">Email me</button>
          </div>
-         <div class="big-box"></div>
      </section>
+     <section class="bigbox">
+         <div class="big-box">
+             <p>Hardcoded by me using: HTML, CSS, JavaScript</p>
+         </div>
+        </section>
        
 
     <script> 
@@ -191,7 +195,7 @@
         }
 
         dot[2].onclick = function(){
-            slide.style.transform = "translateX(-770px)";
+            slide.style.transform = "translateX(-760px)";
             for(i=0;i<4;i++){
                 dot[i].classList.remove("active");
             }
