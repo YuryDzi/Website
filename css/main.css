@@ -353,8 +353,8 @@ img.mobile-menu-exit {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .box-container {
@@ -405,7 +405,7 @@ img.mobile-menu-exit {
       -ms-flex-pack: center;
           justify-content: center;
   top: 0.5vh;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -422,7 +422,7 @@ img.mobile-menu-exit {
 }
 
 .big-box p {
-  top: 350px;
+  top: 340px;
   color: white;
 }
 
