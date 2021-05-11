@@ -704,9 +704,53 @@ h1 {
     }
 }
 
+
+// .slider {
+//     margin-left: 25rem;
+// }
+
+// .mywork {
+//   display: grid;
+//   grid-template-columns: 500px 500px;
+//   grid-row: 50px 50px;
+//   grid-column-gap: 50px;
+//   grid-row-gap: 50px;
+//   margin: 50px 50px;
+//   width:600px;
+//   height:600px;
+//   justify-content: center;
+
+
+// }
+
+// .dots {
+//     display: none;
+// }
+
+
+
+
 @media only screen and (min-width: 1080px) {
 
-    
+   
+
+    .box-container {
+        margin-right: -20rem;
+        position: relative;
+        margin-bottom: 4rem;
+        margin-right: -2rem;
+        padding-right: 0;
+
+    }
+   .small-box {
+       width: 75rem;
+       height: 12rem;
+       position: flex;
+       margin-right: -20rem;
+       margin-bottom: -20rem;
+       
+   }
+   
         
    .navbar  {
        .logo-head {
