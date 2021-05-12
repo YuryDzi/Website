@@ -16,6 +16,7 @@ html, body {
     height: 100vh;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     font-family: 'playfair+display', 'sans-serif'; //'Poppins', sans-serif; 
     
 }
@@ -328,10 +329,13 @@ h3 {
      text-align: center;
      justify-content: center;
      align-items: center;
+    //  color: rgb(20, 28, 58);
      
      
      
      .naks  {
+        text-align: center;
+        justify-content: center;
 
         img { 
         height: 14rem;
@@ -349,17 +353,18 @@ h3 {
         width: 350px;
         margin: 1rem;
         object-fit: cover;
-       
+        padding: 0.5rem;
         }
     }
 
     .phonexa  {
-
+      text-align: center;
+      justify-content: center;
         img { 
         width: 330px;
         margin: 1rem;
         object-fit: cover;
-      
+        padding: 0.5rem;
         }
     }
 
@@ -369,7 +374,7 @@ h3 {
         width: 350px;
         margin: 1rem;
         object-fit: cover;
-        
+        padding: 0.5rem;
         
         }
     }
@@ -447,21 +452,21 @@ h3 {
 
    .box-container {
        padding: 2rem;
-       margin-top: 7rem;
+       margin-top: 5rem;
       
    }
 
    .small-box {
     
-    height: 35vh;
+    height: 23vh;
     background-color: var(--secondary-color);
     border-style: solid;
     border-width: 0.04rem;
     border-radius: 1rem;
     text-align: center;
     justify-content: center;
-    margin-bottom: -15rem;
-    z-index: 1;
+    margin-bottom: -1rem;
+    z-index: 2;
     position: relative;
     
     
@@ -587,6 +592,7 @@ p {
 h1 {
     font-size: 2em;
     margin-bottom: 3rem;
+    
  }
 
  h2 {
@@ -733,6 +739,15 @@ h1 {
 //       position: flex;
 //   }
 
+
+.project-container  {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgb(236, 233, 233);
+    border-style: solid;
+    border-width: 0.01rem;
+    
+    
+}
 
 
 
@@ -909,8 +924,8 @@ h1 {
   border-width: 0;
   float: right;
   padding: 1.3rem;
-  margin-top: -2.5rem;
-  margin-bottom: -0.4rem;
+  margin-top: -2rem;
+  margin-bottom: 0.4rem;
   
   
   
