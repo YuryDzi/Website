@@ -555,7 +555,6 @@ img.mobile-menu-exit {
   .small-box {
     width: 70rem;
     height: 7rem;
-    position: flex;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -567,10 +566,11 @@ img.mobile-menu-exit {
   }
   .small-box p {
     margin-left: 7rem;
-    text-rendering: auto;
+    margin-top: 2rem;
   }
   .small-box button {
     margin-left: 5rem;
+    margin-top: -0.5rem;
   }
   .big-box {
     padding: 2rem;

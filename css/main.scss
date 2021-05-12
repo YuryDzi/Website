@@ -764,7 +764,7 @@ h1 {
 
     .box-container {
         
-        padding: 2rem;
+    padding: 2rem;
       margin: 2rem;
         
 
@@ -772,7 +772,7 @@ h1 {
    .small-box {
        width: 70rem;
        height: 7rem;
-       position: flex;
+    
        display: inline-flex;
        
        margin: 10rem;
@@ -786,13 +786,15 @@ h1 {
 
    .small-box p {
     margin-left: 7rem;
-    text-rendering: auto;
+    
+    margin-top: 2rem;
     
     
 }
 
 .small-box button {
     margin-left: 5rem;
+    margin-top: -0.5rem;
 }
 
 
