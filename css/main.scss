@@ -458,7 +458,7 @@ h3 {
 
    .small-box {
     
-    height: 23vh;
+    height: 36vh;
     background-color: var(--secondary-color);
     border-style: solid;
     border-width: 0.04rem;
@@ -466,8 +466,10 @@ h3 {
     text-align: center;
     justify-content: center;
     margin-bottom: -1rem;
-    z-index: 2;
+    z-index: 1;
     position: relative;
+    margin-bottom: -20rem;
+    padding: 2rem;
     
     
    }
@@ -498,6 +500,11 @@ h3 {
            padding: 0.5rem;
            font-size: 2rem;
            font-weight: bold;
+       }
+
+       .small-box h1 {
+           color: white;
+           font-style: italic;
        }
     
 
@@ -763,13 +770,31 @@ h1 {
 
     }
    .small-box {
-    //    width: 75rem;
-    //    height: 12rem;
+       width: 70rem;
+       height: 7rem;
        position: flex;
+       display: inline-flex;
        
        margin: 10rem;
+       padding: 2rem;
     
    }
+
+   .small-box h1 {
+       margin-left: 0;
+   }
+
+   .small-box p {
+    margin-left: 7rem;
+    text-rendering: auto;
+    
+    
+}
+
+.small-box button {
+    margin-left: 5rem;
+}
+
 
   .big-box {
       padding: 2rem;
