@@ -25,7 +25,6 @@ html, body {
   color: #fff;
   padding-bottom: 14rem;
   text-align: center;
-  display: block;
   margin: 0;
   border: 0;
   font-size: 100%;
@@ -258,16 +257,6 @@ img.mobile-menu-exit {
 .mobile-menu {
   cursor: pointer;
   float: right;
-}
-
-.projects-section {
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .projects-section .naks {
