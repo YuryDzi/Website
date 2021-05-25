@@ -380,6 +380,13 @@ h3 {
         
         }
     }
+    .comming-soon {
+
+        
+        img {
+        display: none;
+    }
+    }
      
  }
  
@@ -646,6 +653,8 @@ h1 {
 
 
 
+
+
 @media only screen and (min-width: 768px) {
 
 
@@ -758,6 +767,22 @@ h1 {
     
 }
 
+.projects-section {
+    .comming-soon img {
+
+        
+        
+        display: flex;
+        width: 10rem;
+        
+        
+    
+    }
+
+    .comming-soon h1 {
+      color: var(--primarly-color);
+    }
+}
 
 
 @media only screen and (min-width: 1080px) {

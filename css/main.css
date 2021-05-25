@@ -305,6 +305,10 @@ img.mobile-menu-exit {
   padding: 0.5rem;
 }
 
+.projects-section .comming-soon img {
+  display: none;
+}
+
 .slider {
   top: 50%;
   left: 50%;
@@ -534,6 +538,17 @@ img.mobile-menu-exit {
   border-color: #ece9e9;
   border-style: solid;
   border-width: 0.01rem;
+}
+
+.projects-section .comming-soon img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10rem;
+}
+
+.projects-section .comming-soon h1 {
+  color: var(--primarly-color);
 }
 
 @media only screen and (min-width: 1080px) {
