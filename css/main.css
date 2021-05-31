@@ -549,6 +549,8 @@ img.mobile-menu-exit {
 
 .projects-section .comming-soon h1 {
   color: var(--primarly-color);
+  width: 30rem;
+  margin: 8rem;
 }
 
 @media only screen and (min-width: 1080px) {
