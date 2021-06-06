@@ -667,7 +667,7 @@ img.mobile-menu-exit {
   .center {
     width: 33.33%;
     height: 39rem;
-    margin-top: 0.50rem;
+    margin-top: 1rem;
     border-color: #ece9e9;
     border-style: solid;
     border-top: 0.04rem;
@@ -729,7 +729,7 @@ img.mobile-menu-exit {
     display: -ms-flexbox;
     display: flex;
     width: 27rem;
-    margin-left: 8.5rem;
+    margin-left: 6.5rem;
     margin-top: 4rem;
     margin-bottom: 0;
     margin-right: 0;
@@ -737,10 +737,10 @@ img.mobile-menu-exit {
   .projects-section .comming-soon p {
     color: var(--primarly-color);
     width: 30rem;
-    margin-right: 6rem;
+    margin-right: 5rem;
     margin-top: 3rem;
     margin-bottom: 8rem;
-    margin-left: 7rem;
+    margin-left: 6rem;
     font-size: 2.5rem;
   }
 }
