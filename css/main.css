@@ -4,7 +4,8 @@
   --secondary-color: #141c3a;
 }
 
-html, body {
+html,
+body {
   background: white;
   margin: 0;
   width: 100%;
@@ -12,7 +13,7 @@ html, body {
   padding: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: 'playfair+display', 'sans-serif';
+  font-family: "playfair+display", "sans-serif";
 }
 
 .back {
@@ -235,7 +236,7 @@ img.mobile-menu-exit {
 
 .hi-one {
   text-decoration: none;
-  border-radius: .3em;
+  border-radius: 0.3em;
   border: 1px solid var(--primarly-color);
   background-color: transparent;
   color: var(--primarly-color);
@@ -243,7 +244,7 @@ img.mobile-menu-exit {
   font-style: italic;
   margin-right: -5em;
   margin-top: 1em;
-  padding: .1em 1em;
+  padding: 0.1em 1em;
   border-radius: 5em;
   display: inline-block;
   cursor: pointer;
@@ -498,7 +499,8 @@ img.mobile-menu-exit {
 }
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu, .mobile-menu-exit {
+  .mobile-menu,
+  .mobile-menu-exit {
     display: none;
   }
   .navbar nav {
@@ -512,7 +514,7 @@ img.mobile-menu-exit {
     text-decoration: none;
     width: 100%;
     margin-bottom: 1em;
-    border-radius: .3em;
+    border-radius: 0.3em;
     border: 1px solid var(--primarly-color);
     background-color: transparent;
     color: var(--primarly-color);
@@ -521,7 +523,7 @@ img.mobile-menu-exit {
     margin-bottom: 5em;
     border-radius: 5em;
     display: inline-block;
-    padding: .8em 2em;
+    padding: 0.8em 2em;
     width: unset;
     cursor: pointer;
     border-width: 0.1rem;
@@ -662,7 +664,7 @@ img.mobile-menu-exit {
     border-width: 0;
     float: left;
     padding: 1.3rem;
-    margin-bottom: -3rem;
+    margin-bottom: -1rem;
   }
   .center {
     width: 33.33%;
@@ -679,7 +681,7 @@ img.mobile-menu-exit {
     border-width: 0;
     float: right;
     padding: 1.3rem;
-    margin-top: -2.5rem;
+    margin-top: -2.7rem;
     margin-bottom: 0.5rem;
   }
   .hero {
