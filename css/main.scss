@@ -766,7 +766,7 @@ img.mobile-menu-exit {
     border-style: solid;
     border-width: 0.04rem;
     border-radius: 1rem;
-    max-height: 55rem;
+    max-height: 48rem;
     max-width: 75rem;
     margin-top: -21rem;
   }
@@ -781,13 +781,14 @@ img.mobile-menu-exit {
 
   .center {
     width: 33.33%;
-    height: 39rem;
-    margin-top: 1rem;
+    height: 40rem;
+    margin-top: 1.3rem;
     border-color: rgb(236, 233, 233);
     border-style: solid;
     border-top: 0.04rem;
     border-bottom: -0.5rem;
     border-radius: 0;
+    padding-top: 4rem;
   }
 
   .right {
@@ -795,7 +796,7 @@ img.mobile-menu-exit {
     border-width: 0;
     float: right;
     padding: 1.3rem;
-    margin-top: -2.8rem;
+    margin-top: -2.6rem;
     margin-bottom: 0.5rem;
   }
 
@@ -838,6 +839,7 @@ img.mobile-menu-exit {
   .box-container {
     margin: 0;
     padding: 0;
+    display: flex;
 
     .small-box {
       margin-top: 5rem;
