@@ -668,7 +668,7 @@ img.mobile-menu-exit {
   }
   .center {
     width: 33.33%;
-    height: 40rem;
+    height: 40.1rem;
     margin-top: 1.3rem;
     border-color: #ece9e9;
     border-style: solid;
@@ -722,9 +722,14 @@ img.mobile-menu-exit {
     display: flex;
   }
   .box-container .small-box {
-    margin-top: 5rem;
-    margin-left: 10rem;
-    margin-bottom: -10rem;
+    margin-bottom: -7rem;
+  }
+  .box-container h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -2rem;
+    margin-bottom: -1rem;
   }
   .big-box {
     padding: 0;

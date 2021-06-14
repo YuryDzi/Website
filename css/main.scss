@@ -781,7 +781,7 @@ img.mobile-menu-exit {
 
   .center {
     width: 33.33%;
-    height: 40rem;
+    height: 40.1rem;
     margin-top: 1.3rem;
     border-color: rgb(236, 233, 233);
     border-style: solid;
@@ -842,15 +842,22 @@ img.mobile-menu-exit {
     display: flex;
 
     .small-box {
-      margin-top: 5rem;
-      margin-left: 10rem;
-      margin-bottom: -10rem;
+    //   margin-top: 5rem;
+    //   margin-left: 10rem;
+      margin-bottom: -7rem;
+    }
+
+    h1 {
+        display: flex;
+        margin-right: -2rem;
+        margin-bottom: -1rem;
     }
   }
 
   .big-box {
     padding: 0;
     margin: 0;
+    
   }
 
   .projects-section {
